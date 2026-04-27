@@ -53,8 +53,6 @@ npm start
 Open in browser:
 
 http://localhost:3000
-Screenshots
-(Optional: Add screenshots here)
 
 Bonus Implementations
 Debounced search (custom hook)
