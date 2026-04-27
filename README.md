@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+User Dashboard (React)
+A simple and responsive User Dashboard built with React.
+It fetches user data from a public API and provides search, sorting, and pagination features.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
 
-## Available Scripts
+Fetch users from API
 
-In the project directory, you can run:
+Display users in card layout (Name, Email, City)
 
-### `npm start`
+Search users by name (with debounce)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Sort users (A → Z, Z → A)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pagination
 
-### `npm test`
+Loading state
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Error handling
 
-### `npm run build`
+Fully responsive (mobile + desktop)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tech Stack
+React (Functional Components + Hooks)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+JavaScript (ES6+)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+CSS (basic inline styling)
 
-### `npm run eject`
+Project Structure
+src/
+│── App.js
+│── App.css
+│── index.js
+│── User.jsx   // main dashboard component
+│── App.test.js
+│── reportWebVitals.js
+│── setupTests.js
+API Used
+https://jsonplaceholder.typicode.com/users
+Installation & Setup
+Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone https://github.com/rohanbhairi/task_userDashboard.git
+Navigate to the project folder:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm install
+Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
+Open in browser:
 
-## Learn More
+http://localhost:3000
+Screenshots
+(Optional: Add screenshots here)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bonus Implementations
+Debounced search (custom hook)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pagination logic
 
-### Code Splitting
+Error + loading states
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clean UI without external libraries
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+This project is open-source and free to use.
